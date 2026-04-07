@@ -152,7 +152,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Future Enhancement
 
 - Integration with a dashboard tool (e.g., **Power BI** or **Tableau**) for interactive visualization.
 - Additional data sources to enhance analysis depth.
