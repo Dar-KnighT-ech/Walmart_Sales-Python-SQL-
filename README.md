@@ -93,6 +93,20 @@ pip install pandas numpy sqlalchemy mysql-connector-python
   - Profit margin analysis by branch and category.
 - **Documentation:** Keep clear notes of each query's objective, approach, and results.
 
+- **Business Problems:**
+
+  Q) Determined the average, minimum and maximum rating of products for each city. List the city, average_rating, min_rating and max_rating.
+
+ **SQl Query:**
+```sql
+SELECT 
+    city, 
+    AVG(rating) AS avg_rating,
+    MIN(rating) AS min_rating, 
+    MAX(rating) AS max_rating
+FROM walmart
+GROUP BY city;
+```
 ---
 
 ### 10. Project Publishing and Documentation
